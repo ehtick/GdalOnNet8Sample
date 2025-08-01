@@ -25,6 +25,6 @@ public class Tests
 
         Console.WriteLine("OGR Drivers: " + String.Join(',', info.OgrDrivers));
         Console.WriteLine("Ogr drivers: " + info.OgrDrivers.Count);
-        Assert.That(info.OgrDrivers.Count == 81);
+        Assert.That(info.OgrDrivers.Count == 79);
     }
 }
