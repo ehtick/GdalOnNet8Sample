@@ -15,29 +15,29 @@
   </PropertyGroup>
 
 	<ItemGroup Condition="'$(IsWindowsX64)'=='true'">
-		<PackageReference Include="MaxRev.Gdal.WindowsRuntime.Minimal" Version="3.9.1.247" />
+		<PackageReference Include="MaxRev.Gdal.WindowsRuntime.Minimal" Version="3.11.3.339" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(IsLinuxX64)'=='true'">
-		<PackageReference Include="MaxRev.Gdal.LinuxRuntime.Minimal" Version="3.9.1.247" />
+		<PackageReference Include="MaxRev.Gdal.LinuxRuntime.Minimal" Version="3.11.3.339" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(IsOsx)'=='true'">
-		<PackageReference Include="MaxRev.Gdal.MacosRuntime.Minimal.x64" Version="3.9.1.247" />
+		<PackageReference Include="MaxRev.Gdal.MacosRuntime.Minimal.x64" Version="3.11.3.339" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(IsOsxArm64)'=='true'">
-		<PackageReference Include="MaxRev.Gdal.MacosRuntime.Minimal.arm64" Version="3.9.1.247" />
+		<PackageReference Include="MaxRev.Gdal.MacosRuntime.Minimal.arm64" Version="3.11.3.339" />
 	</ItemGroup>
 
 
 	<ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
-    <PackageReference Include="NUnit" Version="4.2.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="NUnit" Version="4.3.2" />
 
-    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
-    <PackageReference Include="NUnit.Analyzers" Version="4.3.0">
+    <PackageReference Include="NUnit3TestAdapter" Version="5.0.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="4.9.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="coverlet.collector" Version="6.0.2">
+    <PackageReference Include="coverlet.collector" Version="6.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

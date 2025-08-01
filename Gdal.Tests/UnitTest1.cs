@@ -9,7 +9,7 @@ public class Tests
     {
         var kit = new GdalKit();
         var info = kit.GetGdalInfo();
-        Assert.That(info.ReleaseName == "3.9.1");
+        Assert.That(info.ReleaseName == "3.11.3");
         Console.WriteLine("OS: " + Environment.OSVersion.Platform);
         Console.WriteLine("Gdal drivers: " + info.GdalDrivers.Count);
         info.GdalDrivers.Sort();
@@ -18,7 +18,7 @@ public class Tests
         // if windows, count is 150 else 151
         if (Environment.OSVersion.Platform == PlatformID.Win32NT)
         {
-            Assert.That(info.GdalDrivers.Count == 150);
+            Assert.That(info.GdalDrivers.Count == 142);
         }
         else { 
             Assert.That(info.GdalDrivers.Count == 151);
