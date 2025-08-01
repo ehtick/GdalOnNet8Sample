@@ -100,9 +100,12 @@ static double ComputeMean(double[] data)
 
 ## Dependencies
 
-This sample uses the following packages from NuGet:
+This sample uses the following package from NuGet:
 
-- https://www.nuget.org/packages/MaxRev.Gdal.Core/
+- https://www.nuget.org/packages/MaxRev.Gdal.Universal/
+
+
+For minimal runtimes, you can use the following packages:
 
 - https://www.nuget.org/packages/MaxRev.Gdal.WindowsRuntime.Minimal/ 
 
@@ -125,7 +128,7 @@ System.ApplicationException: 'PROJ: proj_get_authorities_from_database: Cannot f
 
 ## History
 
-2025-08-01: From 3.9 to 3.11
+2025-08-01: From 3.9 to 3.11 (Universal package)
 
 2024-06-28: From 3.8 to 3.9
 
