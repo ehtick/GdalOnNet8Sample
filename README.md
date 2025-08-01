@@ -102,15 +102,15 @@ static double ComputeMean(double[] data)
 
 This sample uses the following packages from NuGet:
 
-- https://www.nuget.org/packages/MaxRev.Gdal.Core/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.Core/
 
-- https://www.nuget.org/packages/MaxRev.Gdal.WindowsRuntime.Minimal/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.WindowsRuntime.Minimal/ 
 
-- https://www.nuget.org/packages/MaxRev.Gdal.LinuxRuntime.Minimal/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.LinuxRuntime.Minimal/ 
 
-- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.x64/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.x64/ 
 
-- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.arm64/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.arm64/ 
 
 ## Known issues
 
