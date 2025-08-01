@@ -1,5 +1,4 @@
 ﻿using GdalNetCore.Core;
-using OSGeo.GDAL;
 using OSGeo.OGR;
 using OSGeo.OSR;
 using System;
@@ -66,21 +65,6 @@ namespace GdalNetCore
             Console.WriteLine("To: x:" + p[0] + " y:" + p[1] + " z:" + p[2]);
             Console.WriteLine("Program finished, press any key to exit.");
             // Console.ReadKey();
-
-var zarrPath = @"D:\dev\github.com\pmocz\sample-zarr-dataset\timeseries.zarr";
-var dsZarr = Gdal.Open(zarrPath, Access.GA_ReadOnly);
-Band band = dsZarr.GetRasterBand(1);
-double[] buffer = new double[dsZarr.RasterXSize * dsZarr.RasterYSize];
-band.ReadRaster(0, 0, dsZarr.RasterXSize, dsZarr.RasterYSize, buffer, dsZarr.RasterXSize, dsZarr.RasterYSize, 0, 0);
-Console.WriteLine($"Band 1 mean value: {ComputeMean(buffer)}");
-dsZarr.Dispose();
-
-static double ComputeMean(double[] data)
-{
-    double sum = 0;
-    foreach (var v in data) sum += v;
-    return sum / data.Length;
-}
         }
 
     }
