@@ -79,7 +79,7 @@ Console.WriteLine("To: x:" + p[0] + " y:" + p[1] + " z:" + p[2]);
 
 ```
 
-Sample reading ZARR (https://github.com/pmocz/sample-zarr-dataset)
+Sample reading Zarr (https://github.com/pmocz/sample-zarr-dataset)
 
 ```
 var zarrPath = @"c:\zardata\pmocz\sample-zarr-dataset\timeseries.zarr";
