@@ -15,7 +15,6 @@ public class Tests
         info.GdalDrivers.Sort();
         Console.WriteLine("GDAL Drivers: " + String.Join(',', info.GdalDrivers));
 
-        // if windows, count is 150 else 151
         if (Environment.OSVersion.Platform == PlatformID.Win32NT)
         {
             Assert.That(info.GdalDrivers.Count == 142);
