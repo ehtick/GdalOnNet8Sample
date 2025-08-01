@@ -79,7 +79,7 @@ Console.WriteLine("To: x:" + p[0] + " y:" + p[1] + " z:" + p[2]);
 
 ```
 
-Sample reading ZARR (https://github.com/pmocz/sample-zarr-dataset)
+Sample reading Zarr (https://github.com/pmocz/sample-zarr-dataset)
 
 ```
 var zarrPath = @"c:\zardata\pmocz\sample-zarr-dataset\timeseries.zarr";
@@ -102,15 +102,15 @@ static double ComputeMean(double[] data)
 
 This sample uses the following packages from NuGet:
 
-- https://www.nuget.org/packages/MaxRev.Gdal.Core/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.Core/
 
-- https://www.nuget.org/packages/MaxRev.Gdal.WindowsRuntime.Minimal/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.WindowsRuntime.Minimal/ 
 
-- https://www.nuget.org/packages/MaxRev.Gdal.LinuxRuntime.Minimal/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.LinuxRuntime.Minimal/ 
 
-- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.x64/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.x64/ 
 
-- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.arm64/ - version 3.9.0.218
+- https://www.nuget.org/packages/MaxRev.Gdal.MacosRuntime.Minimal.arm64/ 
 
 ## Known issues
 
@@ -124,6 +124,8 @@ System.ApplicationException: 'PROJ: proj_get_authorities_from_database: Cannot f
 ```
 
 ## History
+
+2025-08-01: From 3.9 to 3.11
 
 2024-06-28: From 3.8 to 3.9
 
