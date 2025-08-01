@@ -104,9 +104,10 @@ This sample uses the following package from NuGet:
 
 - https://www.nuget.org/packages/MaxRev.Gdal.Universal/
 
+For minimal runtimes, use the following packages:
 
-For minimal runtimes, you can use the following packages:
-
+- https://www.nuget.org/packages/MaxRev.Gdal.Core
+ 
 - https://www.nuget.org/packages/MaxRev.Gdal.WindowsRuntime.Minimal/ 
 
 - https://www.nuget.org/packages/MaxRev.Gdal.LinuxRuntime.Minimal/ 
