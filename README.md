@@ -125,6 +125,8 @@ System.ApplicationException: 'PROJ: proj_get_authorities_from_database: Cannot f
 
 ## History
 
+2025-08-01: From 3.9 to 3.11
+
 2024-06-28: From 3.8 to 3.9
 
 2024-04-30: From 3.7 to 3.8
