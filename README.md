@@ -1,6 +1,6 @@
 # GDAL on .NET 8 Sample
 
-Sample of running GDAL 3.9.1 on .NET 8 Works on osx-x64, osx-arm64, linux-x64 and win-x64.
+Sample of running GDAL 3.11.3 on .NET 8 Works on osx-x64, osx-arm64, linux-x64 and win-x64.
 
 Sample contains 3 parts:
 
