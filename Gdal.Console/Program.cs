@@ -55,6 +55,7 @@ namespace GdalNetCore
             string angularUnits = src.GetAngularUnitsName();
             Console.WriteLine("SOURCE IsGeographic:" + src.IsGeographic() + " IsProjected:" + src.IsProjected());
             var dst = new SpatialReference("");
+            dst.SetAxisMappingStrategy(AxisMappingStrategy.OAMS_TRADITIONAL_GIS_ORDER);
             dst.ImportFromEPSG(4326);
             Console.WriteLine("DEST IsGeographic:" + dst.IsGeographic() + " IsProjected:" + dst.IsProjected());
             var ct = new CoordinateTransformation(src, dst);

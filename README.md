@@ -69,6 +69,7 @@ src.ImportFromEPSG(28992);
 Console.WriteLine("SOURCE IsGeographic:" + src.IsGeographic() + " IsProjected:" + src.IsProjected());
 var dst = new SpatialReference("");
 dst.ImportFromEPSG(4326);
+dst.SetAxisMappingStrategy(AxisMappingStrategy.OAMS_TRADITIONAL_GIS_ORDER);
 Console.WriteLine("DEST IsGeographic:" + dst.IsGeographic() + " IsProjected:" + dst.IsProjected());
 var ct = new CoordinateTransformation(src, dst);
 double[] p = new double[3];
@@ -78,6 +79,8 @@ ct.TransformPoint(p);
 Console.WriteLine("To: x:" + p[0] + " y:" + p[1] + " z:" + p[2]);
 
 ```
+
+Warning for EPSG:4326 use AxisMappingStrategy.OAMS_TRADITIONAL_GIS_ORDER to specify lon/lat order.
 
 Sample reading Zarr (https://github.com/pmocz/sample-zarr-dataset)
 
